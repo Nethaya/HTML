@@ -1,0 +1,67 @@
+.header{
+   background-color:#89AD98;
+   justify-content: space-evenly;
+
+}
+
+
+
+.grid{
+    display: flex;
+   justify-content: first baseline;
+    background-color:#7DAD;
+   
+}
+
+.game1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#7DAD;
+
+    
+}
+
+.menu{
+    background-color:darkseagreen;
+    
+}
+
+h1{
+    color: #fff;
+}
+
+h4{
+    color:black;
+}
+
+a:link:{
+   color:#33AD;
+}
+
+a:visited{
+   color: #0808df;
+}
+
+.menu a{
+    margin-left:50px
+}
+
+.grid{
+    position: relative;
+}
+
+.game1 p{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   opacity: 0;
+}
+
+.game1:hover p{
+   opacity: 1;
+}
+
+.game1:hover img{
+    opacity: 0.33;
+}
